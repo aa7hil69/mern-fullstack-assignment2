@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/eb057bb5a5.js" crossorigin="anonymous"></script>    
+    <style>
+        .container{
+            padding: 30px;
+            background-color: #efefef;
+            width: 600px;
+        }
+        .mail{
+            padding-left: 30px;
+        }
+        .phone{
+            padding-left: 21px;
+        }
+        .address{
+            padding-left: 19px;
+        }
+        .city{
+            padding-left: 49px;
+        }
+        .state{
+            padding-left: 40px;
+        }
+        textarea{
+            width: 300px;
+            height: 90px;
+        }
+        .btn{
+            background-color: #e7a340;
+            color: white;
+            }
+        .box{
+           padding-left: 165px;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    
+        
+        <div class="container mt-5">
+            <form class="form">
+                <div class="form-group row">
+                    <label class="col-form-label mr-3">First Name</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="LastName" class="col-form-label mr-3">Last Name</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="mail mr-3">E-Mail</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-envelope me-2"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="E-Mail Address">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label class="phone mr-3">Phone#</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-phone me-2"></i></span>
+                            </div>
+                            <input type="tel" class="form-control" placeholder="(845)555-1212">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+                    <label class="address mr-3">Address</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-house me-2"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Address">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label class="city mr-3">City</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-city me-2"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="City">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label class="state mr-3">State</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-list me-2"></i></span>
+                            </div>
+                            <select class="form-control">
+                                <option value="value" selected disabled hidden >Please select your state</option>
+                                <option value="value">Tamil Nadu</option>
+                                <option value="value">Keral</option>
+                                <option value="value">Maharastra</option>
+                                <option value="value">Andhra Pradesh</option>
+                                <option value="value">Telangana</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label class="hosting mr-3">Do you have your hosting?</label>
+                    <div>
+                        <div class="col">
+                            <input type="radio" name="one"><label>Yes</label>
+                        </div>
+                        <div class="col">
+                            <input type="radio" name="one"><label>No</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label class="desc mr-3">Project Description</label>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-pen me-2"></i></span>
+                            </div>
+                            <textarea class="text-control" placeholder="Project Description"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="input-group ">
+                            <div class="input-group-prepend box">
+                                <button class="input-group-text btn ">Send<i class="fa-solid fa-paper-plane me-2"></i></button>
+                            </div>
+                            
+                    </div>
+                </div>
+            </form>
+        </div>
+           
+</body>
+</html>
